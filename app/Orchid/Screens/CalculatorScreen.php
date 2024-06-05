@@ -61,7 +61,7 @@ class CalculatorScreen extends Screen
                 if ($number2 != 0) {
                     $result = intdiv($number1, $number2);
                 } else {
-                    Alert::error('мы не любим ноль!');
+                    Alert::error('мы не любим ноль!!!');
                     return;
                 }
                 break;
